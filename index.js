@@ -5,6 +5,7 @@ import Buzon from './buzon.js';
     { name: 'Enzo', avatar: './img/pacman2.png' },
     { name: 'Samu', avatar: './img/pacman2.png' },
     { name: 'Miguel', avatar: './img/pacman2.png' },
+    { name: 'Luis', avatar: './img/pacman2.png' },
   ];
 
   const $mainImage = document.querySelector('#main-image');
