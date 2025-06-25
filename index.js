@@ -15,7 +15,7 @@ import Buzon from './buzon.js';
   const $buzonItemTemplate = document.querySelector('#buzon-item-template');
 
   const buzon = new Buzon({
-    startDate: '2021-04-07',
+    startDate: '2025-19-06',
     persons
   });
 
