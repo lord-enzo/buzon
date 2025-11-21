@@ -2,12 +2,12 @@ import Buzon from './buzon.js';
 
 (function() {
   const persons = [
-    { name: 'Enzo', avatar: './img/pacman2.png' },
     { name: 'Samu', avatar: './img/pacman2.png' },
     { name: 'Miguel', avatar: './img/pacman2.png' },
     { name: 'Luis', avatar: './img/pacman2.png' },
     { name: 'Gonzalo', avatar: './img/pacman2.png' },
     { name: 'Tony', avatar: './img/pacman2.png' },
+    { name: 'Enzo', avatar: './img/pacman2.png' },
   ];
 
   const $mainImage = document.querySelector('#main-image');
@@ -17,7 +17,7 @@ import Buzon from './buzon.js';
   const $buzonItemTemplate = document.querySelector('#buzon-item-template');
 
   const buzon = new Buzon({
-    startDate: '2025-19-06',
+    startDate: '2025-20-11',
     persons
   });
 
